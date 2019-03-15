@@ -1,6 +1,11 @@
 # Write your code here.
+<<<<<<< HEAD
 def deli_array(arr)
   arr= []
+=======
+def deli_array
+  []
+>>>>>>> 4a848f28335a3139cc3d5dcd8647cd5a04eceaac
 end
 
 def line(deli_array)
@@ -8,6 +13,7 @@ def line(deli_array)
     puts "The line is currently empty."
   else
     arr_len = deli_array.length
+<<<<<<< HEAD
     str_message= "The line is currently: "
      count = 0
     while count < arr_len
@@ -34,5 +40,13 @@ def now_serving (deli_array)
   else
     puts "Currently serving Logan."
     deli_array.shift
+=======
+    count = 0
+    while count < arr_len
+    count = count + 1
+    puts "The line is currently: #{count}. #{deli_array[count]}"
+    puts arr_len
+   end
+>>>>>>> 4a848f28335a3139cc3d5dcd8647cd5a04eceaac
   end
 end
